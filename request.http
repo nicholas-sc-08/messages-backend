@@ -1,0 +1,2 @@
+### List All Messages
+GET http://localhost:3000/messages
