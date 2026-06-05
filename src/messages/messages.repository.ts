@@ -9,7 +9,10 @@ export class MessagesRepository {
     }
 
     async findAll() {
+        const contens = await readFile("messages.json", "utf8");
+        const messages = JSON.parse(contens);
 
+        return messages;
     }
 
     async create(message: string) {
