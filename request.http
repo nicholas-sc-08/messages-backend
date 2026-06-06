@@ -8,3 +8,6 @@ content-type: application/json
 {
     "content": "hi there"
 }
+
+###Get particular message
+GET http://localhost:3000/messages/12
